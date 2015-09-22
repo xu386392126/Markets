@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:253.0/255.0 green:91.0/255.0 blue:10.0/255.0 alpha:1]];
+    
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbarbg"]];
+    
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc]init]];
+    
     return YES;
 }
 
