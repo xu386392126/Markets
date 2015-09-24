@@ -21,7 +21,7 @@
     
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarbg"] forBarMetrics:UIBarMetricsDefault];
     
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarbg"] forBarMetrics:UIBarMetricsDefaultPrompt];
+    //[self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarbg"] forBarMetrics:UIBarMetricsDefaultPrompt];
     
     
     
