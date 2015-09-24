@@ -168,31 +168,39 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="0wi-dC-fCI" kind="relationship" relationship="rootViewController" id="n29-vf-YwN"/>
+                        <segue destination="zgl-uH-8nj" kind="relationship" relationship="rootViewController" id="HuO-2f-YYo"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KwC-GZ-t5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="223" y="-2665"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7eu-1d-cel">
+        <!--Home View Controller-->
+        <scene sceneID="Gkk-5O-kcy">
             <objects>
-                <viewController id="0wi-dC-fCI" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eeO-bL-exR"/>
-                        <viewControllerLayoutGuide type="bottom" id="Hjr-Db-D18"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="myq-fi-lcw">
+                <tableViewController id="zgl-uH-8nj" customClass="HomeViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="A6b-R7-EpL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="jZq-Ic-WJ1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dl8-fC-XII" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="6v7-Zw-Ky7" customClass="ASOXScrollTableViewCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6v7-Zw-Ky7" id="bmQ-Cj-uYS">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zgl-uH-8nj" id="Fa9-zI-VWu"/>
+                            <outlet property="delegate" destination="zgl-uH-8nj" id="ftf-rx-3dG"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="C7I-m3-ZXO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bke-iv-2Ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686" y="-2665"/>
+            <point key="canvasLocation" x="696" y="-2665"/>
         </scene>
     </scenes>
     <resources>
@@ -206,4 +214,5 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
+		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
 		206498E01BAFFB42005B3EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 206498DF1BAFFB42005B3EDC /* main.m */; };
 		206498E91BAFFB42005B3EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206498E71BAFFB42005B3EDC /* Main.storyboard */; };
 		206498EB1BAFFB42005B3EDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206498EA1BAFFB42005B3EDC /* Images.xcassets */; };
 		206498EE1BAFFB42005B3EDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 206498EC1BAFFB42005B3EDC /* LaunchScreen.xib */; };
 		206498FA1BAFFB42005B3EDC /* MarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 206498F91BAFFB42005B3EDC /* MarketTests.m */; };
 		206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 206499051BAFFB6E005B3EDC /* AppDelegate.m */; };
-		206499091BAFFB6E005B3EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206499071BAFFB6E005B3EDC /* ViewController.m */; };
+		2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E27D1BB2960100EE2B99 /* ViewController.m */; };
+		2090E2861BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E2841BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m */; };
+		2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E2881BB2D04800EE2B99 /* HomeViewController.m */; };
+		2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090E28C1BB2D13E00EE2B99 /* XScrollViewCell.m */; };
+		2090E28F1BB2D13E00EE2B99 /* XScrollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2090E28D1BB2D13E00EE2B99 /* XScrollViewCell.xib */; };
+		933563180E40D88C5B93449C /* Pods_Market.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5154EE328CE581CEDB97B9A9 /* Pods_Market.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20629A4C1BB3A34B0066FBF8 /* URLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManage.h; sourceTree = "<group>"; };
+		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
+		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		206498DA1BAFFB42005B3EDC /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206498DE1BAFFB42005B3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206498DF1BAFFB42005B3EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,8 +49,19 @@
 		206498F91BAFFB42005B3EDC /* MarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketTests.m; sourceTree = "<group>"; };
 		206499041BAFFB6E005B3EDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		206499051BAFFB6E005B3EDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		206499061BAFFB6E005B3EDC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		206499071BAFFB6E005B3EDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2090E27C1BB2960100EE2B99 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2090E27D1BB2960100EE2B99 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2090E2831BB2CFA900EE2B99 /* ASOXScrollTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASOXScrollTableViewCell.h; sourceTree = "<group>"; };
+		2090E2841BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASOXScrollTableViewCell.m; sourceTree = "<group>"; };
+		2090E2851BB2CFA900EE2B99 /* ASOXScrollTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASOXScrollTableViewCellDelegate.h; sourceTree = "<group>"; };
+		2090E2871BB2D04800EE2B99 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2090E2881BB2D04800EE2B99 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2090E28B1BB2D13E00EE2B99 /* XScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XScrollViewCell.h; sourceTree = "<group>"; };
+		2090E28C1BB2D13E00EE2B99 /* XScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XScrollViewCell.m; sourceTree = "<group>"; };
+		2090E28D1BB2D13E00EE2B99 /* XScrollViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XScrollViewCell.xib; sourceTree = "<group>"; };
+		4AA462EB7D2BFBAC694E9042 /* Pods-Market.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Market/Pods-Market.debug.xcconfig"; sourceTree = "<group>"; };
+		5154EE328CE581CEDB97B9A9 /* Pods_Market.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Market.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3B6956AC1170EF4D0685BE /* Pods-Market.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market.release.xcconfig"; path = "Pods/Target Support Files/Pods-Market/Pods-Market.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933563180E40D88C5B93449C /* Pods_Market.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +83,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20629A4B1BB3A2F40066FBF8 /* Comm */ = {
+			isa = PBXGroup;
+			children = (
+				20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */,
+				20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */,
+				20629A4C1BB3A34B0066FBF8 /* URLManage.h */,
+				20629A4D1BB3A34B0066FBF8 /* URLManage.m */,
+			);
+			path = Comm;
+			sourceTree = "<group>";
+		};
+		20629A4F1BB3C7140066FBF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20629A501BB3C7140066FBF8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		206498D11BAFFB42005B3EDC = {
 			isa = PBXGroup;
 			children = (
 				206498DC1BAFFB42005B3EDC /* Market */,
 				206498F61BAFFB42005B3EDC /* MarketTests */,
 				206498DB1BAFFB42005B3EDC /* Products */,
+				620FE2DB87AEBA223A721B6E /* Pods */,
+				B462C65EE485ADF4615FD407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +135,11 @@
 				206498E71BAFFB42005B3EDC /* Main.storyboard */,
 				206498EA1BAFFB42005B3EDC /* Images.xcassets */,
 				206498EC1BAFFB42005B3EDC /* LaunchScreen.xib */,
+				20629A4F1BB3C7140066FBF8 /* Models */,
+				20629A501BB3C7140066FBF8 /* Service */,
+				20629A4B1BB3A2F40066FBF8 /* Comm */,
+				2090E28A1BB2D11100EE2B99 /* Views */,
+				2090E2811BB2CFA900EE2B99 /* Vender */,
 				206498DD1BAFFB42005B3EDC /* Supporting Files */,
 			);
 			path = Market;
@@ -121,10 +176,89 @@
 			children = (
 				206499041BAFFB6E005B3EDC /* AppDelegate.h */,
 				206499051BAFFB6E005B3EDC /* AppDelegate.m */,
-				206499061BAFFB6E005B3EDC /* ViewController.h */,
-				206499071BAFFB6E005B3EDC /* ViewController.m */,
+				2090E27B1BB2960100EE2B99 /* HomeViewControllers */,
+				2090E27A1BB2960100EE2B99 /* CategoryViewControllers */,
+				2090E2791BB2960100EE2B99 /* CartViewControllers */,
+				2090E27E1BB2960100EE2B99 /* MeViewControllers */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2090E2791BB2960100EE2B99 /* CartViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CartViewControllers;
+			sourceTree = "<group>";
+		};
+		2090E27A1BB2960100EE2B99 /* CategoryViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CategoryViewControllers;
+			sourceTree = "<group>";
+		};
+		2090E27B1BB2960100EE2B99 /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2090E27C1BB2960100EE2B99 /* ViewController.h */,
+				2090E27D1BB2960100EE2B99 /* ViewController.m */,
+				2090E2871BB2D04800EE2B99 /* HomeViewController.h */,
+				2090E2881BB2D04800EE2B99 /* HomeViewController.m */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		2090E27E1BB2960100EE2B99 /* MeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MeViewControllers;
+			sourceTree = "<group>";
+		};
+		2090E2811BB2CFA900EE2B99 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				2090E2821BB2CFA900EE2B99 /* XScroll */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2090E2821BB2CFA900EE2B99 /* XScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2090E2831BB2CFA900EE2B99 /* ASOXScrollTableViewCell.h */,
+				2090E2841BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m */,
+				2090E2851BB2CFA900EE2B99 /* ASOXScrollTableViewCellDelegate.h */,
+			);
+			path = XScroll;
+			sourceTree = "<group>";
+		};
+		2090E28A1BB2D11100EE2B99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2090E28B1BB2D13E00EE2B99 /* XScrollViewCell.h */,
+				2090E28C1BB2D13E00EE2B99 /* XScrollViewCell.m */,
+				2090E28D1BB2D13E00EE2B99 /* XScrollViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		620FE2DB87AEBA223A721B6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA462EB7D2BFBAC694E9042 /* Pods-Market.debug.xcconfig */,
+				DC3B6956AC1170EF4D0685BE /* Pods-Market.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B462C65EE485ADF4615FD407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5154EE328CE581CEDB97B9A9 /* Pods_Market.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206498FD1BAFFB42005B3EDC /* Build configuration list for PBXNativeTarget "Market" */;
 			buildPhases = (
+				9B8CD53620C5A5DE9585C7B1 /* Check Pods Manifest.lock */,
 				206498D61BAFFB42005B3EDC /* Sources */,
 				206498D71BAFFB42005B3EDC /* Frameworks */,
 				206498D81BAFFB42005B3EDC /* Resources */,
+				C0D261457C3F88BB5F205E45 /* Embed Pods Frameworks */,
+				8413A7C7D672C104BAAFA76E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +346,7 @@
 			files = (
 				206498E91BAFFB42005B3EDC /* Main.storyboard in Resources */,
 				206498EE1BAFFB42005B3EDC /* LaunchScreen.xib in Resources */,
+				2090E28F1BB2D13E00EE2B99 /* XScrollViewCell.xib in Resources */,
 				206498EB1BAFFB42005B3EDC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,13 +360,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8413A7C7D672C104BAAFA76E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Market/Pods-Market-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8CD53620C5A5DE9585C7B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D261457C3F88BB5F205E45 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Market/Pods-Market-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		206498D61BAFFB42005B3EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206499091BAFFB6E005B3EDC /* ViewController.m in Sources */,
+				20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */,
+				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
+				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
+				2090E2861BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m in Sources */,
+				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
 				206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */,
+				2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */,
 				206498E01BAFFB42005B3EDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +544,7 @@
 		};
 		206498FE1BAFFB42005B3EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA462EB7D2BFBAC694E9042 /* Pods-Market.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -365,6 +557,7 @@
 		};
 		206498FF1BAFFB42005B3EDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3B6956AC1170EF4D0685BE /* Pods-Market.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
