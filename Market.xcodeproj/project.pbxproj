@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
 		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
+		20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A571BB4219F0066FBF8 /* CategoryViewController.m */; };
 		206498E01BAFFB42005B3EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 206498DF1BAFFB42005B3EDC /* main.m */; };
 		206498E91BAFFB42005B3EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206498E71BAFFB42005B3EDC /* Main.storyboard */; };
 		206498EB1BAFFB42005B3EDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206498EA1BAFFB42005B3EDC /* Images.xcassets */; };
@@ -38,6 +39,8 @@
 		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
 		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		20629A561BB4219F0066FBF8 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		20629A571BB4219F0066FBF8 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		206498DA1BAFFB42005B3EDC /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206498DE1BAFFB42005B3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206498DF1BAFFB42005B3EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 		2090E27A1BB2960100EE2B99 /* CategoryViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				20629A561BB4219F0066FBF8 /* CategoryViewController.h */,
+				20629A571BB4219F0066FBF8 /* CategoryViewController.m */,
 			);
 			path = CategoryViewControllers;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
 				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
 				2090E2861BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m in Sources */,
+				20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */,
 				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
 				206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */,
 				2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */,
