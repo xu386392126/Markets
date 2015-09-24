@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182642AF1BB423C100823451 /* AboutAPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826429A1BB423C100823451 /* AboutAPPViewController.m */; };
+		182642B01BB423C100823451 /* AboutAPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826429A1BB423C100823451 /* AboutAPPViewController.m */; };
+		182642B11BB423C100823451 /* AboutAPPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826429B1BB423C100823451 /* AboutAPPViewController.xib */; };
+		182642B21BB423C100823451 /* AboutAPPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826429B1BB423C100823451 /* AboutAPPViewController.xib */; };
+		182642B31BB423C100823451 /* AdressManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826429D1BB423C100823451 /* AdressManageViewController.m */; };
+		182642B41BB423C100823451 /* AdressManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826429D1BB423C100823451 /* AdressManageViewController.m */; };
+		182642B51BB423C100823451 /* AdressManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826429E1BB423C100823451 /* AdressManageViewController.xib */; };
+		182642B61BB423C100823451 /* AdressManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826429E1BB423C100823451 /* AdressManageViewController.xib */; };
+		182642B71BB423C100823451 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A01BB423C100823451 /* FeedBackViewController.m */; };
+		182642B81BB423C100823451 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A01BB423C100823451 /* FeedBackViewController.m */; };
+		182642B91BB423C100823451 /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642A11BB423C100823451 /* FeedBackViewController.xib */; };
+		182642BA1BB423C100823451 /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642A11BB423C100823451 /* FeedBackViewController.xib */; };
+		182642BB1BB423C100823451 /* MySettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A31BB423C100823451 /* MySettingTableViewController.m */; };
+		182642BC1BB423C100823451 /* MySettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A31BB423C100823451 /* MySettingTableViewController.m */; };
+		182642BD1BB423C100823451 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A51BB423C100823451 /* OrderViewController.m */; };
+		182642BE1BB423C100823451 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A51BB423C100823451 /* OrderViewController.m */; };
+		182642BF1BB423C100823451 /* QRcodeShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A71BB423C100823451 /* QRcodeShareViewController.m */; };
+		182642C01BB423C100823451 /* QRcodeShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642A71BB423C100823451 /* QRcodeShareViewController.m */; };
+		182642C11BB423C100823451 /* QRcodeShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642A81BB423C100823451 /* QRcodeShareViewController.xib */; };
+		182642C21BB423C100823451 /* QRcodeShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642A81BB423C100823451 /* QRcodeShareViewController.xib */; };
+		182642C31BB423C100823451 /* SettinglistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642AA1BB423C100823451 /* SettinglistTableViewCell.m */; };
+		182642C41BB423C100823451 /* SettinglistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642AA1BB423C100823451 /* SettinglistTableViewCell.m */; };
+		182642C51BB423C100823451 /* SettinglistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642AB1BB423C100823451 /* SettinglistTableViewCell.xib */; };
+		182642C61BB423C100823451 /* SettinglistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642AB1BB423C100823451 /* SettinglistTableViewCell.xib */; };
+		182642C71BB423C100823451 /* SettingLoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642AD1BB423C100823451 /* SettingLoginTableViewCell.m */; };
+		182642C81BB423C100823451 /* SettingLoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642AD1BB423C100823451 /* SettingLoginTableViewCell.m */; };
+		182642C91BB423C100823451 /* SettingLoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642AE1BB423C100823451 /* SettingLoginTableViewCell.xib */; };
+		182642CA1BB423C100823451 /* SettingLoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642AE1BB423C100823451 /* SettingLoginTableViewCell.xib */; };
+		182642D21BB4246200823451 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642CD1BB4246200823451 /* ChangePasswordViewController.m */; };
+		182642D31BB4246200823451 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642CD1BB4246200823451 /* ChangePasswordViewController.m */; };
+		182642D41BB4246200823451 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642CE1BB4246200823451 /* ChangePasswordViewController.xib */; };
+		182642D51BB4246200823451 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642CE1BB4246200823451 /* ChangePasswordViewController.xib */; };
+		182642D61BB4246200823451 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642D01BB4246200823451 /* LoginViewController.m */; };
+		182642D71BB4246200823451 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642D01BB4246200823451 /* LoginViewController.m */; };
+		182642D81BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
+		182642D91BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
 		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
 		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
 		20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A571BB4219F0066FBF8 /* CategoryViewController.m */; };
@@ -35,6 +71,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182642991BB423C100823451 /* AboutAPPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutAPPViewController.h; sourceTree = "<group>"; };
+		1826429A1BB423C100823451 /* AboutAPPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAPPViewController.m; sourceTree = "<group>"; };
+		1826429B1BB423C100823451 /* AboutAPPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutAPPViewController.xib; sourceTree = "<group>"; };
+		1826429C1BB423C100823451 /* AdressManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressManageViewController.h; sourceTree = "<group>"; };
+		1826429D1BB423C100823451 /* AdressManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressManageViewController.m; sourceTree = "<group>"; };
+		1826429E1BB423C100823451 /* AdressManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdressManageViewController.xib; sourceTree = "<group>"; };
+		1826429F1BB423C100823451 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		182642A01BB423C100823451 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		182642A11BB423C100823451 /* FeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedBackViewController.xib; sourceTree = "<group>"; };
+		182642A21BB423C100823451 /* MySettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySettingTableViewController.h; sourceTree = "<group>"; };
+		182642A31BB423C100823451 /* MySettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySettingTableViewController.m; sourceTree = "<group>"; };
+		182642A41BB423C100823451 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		182642A51BB423C100823451 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		182642A61BB423C100823451 /* QRcodeShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRcodeShareViewController.h; sourceTree = "<group>"; };
+		182642A71BB423C100823451 /* QRcodeShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRcodeShareViewController.m; sourceTree = "<group>"; };
+		182642A81BB423C100823451 /* QRcodeShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRcodeShareViewController.xib; sourceTree = "<group>"; };
+		182642A91BB423C100823451 /* SettinglistTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettinglistTableViewCell.h; sourceTree = "<group>"; };
+		182642AA1BB423C100823451 /* SettinglistTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettinglistTableViewCell.m; sourceTree = "<group>"; };
+		182642AB1BB423C100823451 /* SettinglistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettinglistTableViewCell.xib; sourceTree = "<group>"; };
+		182642AC1BB423C100823451 /* SettingLoginTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingLoginTableViewCell.h; sourceTree = "<group>"; };
+		182642AD1BB423C100823451 /* SettingLoginTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingLoginTableViewCell.m; sourceTree = "<group>"; };
+		182642AE1BB423C100823451 /* SettingLoginTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingLoginTableViewCell.xib; sourceTree = "<group>"; };
+		182642CC1BB4246200823451 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		182642CD1BB4246200823451 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		182642CE1BB4246200823451 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		182642CF1BB4246200823451 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		182642D01BB4246200823451 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		182642D11BB4246200823451 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		20629A4C1BB3A34B0066FBF8 /* URLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManage.h; sourceTree = "<group>"; };
 		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
 		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
@@ -86,6 +150,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182642971BB4239F00823451 /* CartViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CartViewControllers;
+			sourceTree = "<group>";
+		};
+		182642981BB4239F00823451 /* MeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182642991BB423C100823451 /* AboutAPPViewController.h */,
+				1826429A1BB423C100823451 /* AboutAPPViewController.m */,
+				1826429B1BB423C100823451 /* AboutAPPViewController.xib */,
+				1826429C1BB423C100823451 /* AdressManageViewController.h */,
+				1826429D1BB423C100823451 /* AdressManageViewController.m */,
+				1826429E1BB423C100823451 /* AdressManageViewController.xib */,
+				1826429F1BB423C100823451 /* FeedBackViewController.h */,
+				182642A01BB423C100823451 /* FeedBackViewController.m */,
+				182642A11BB423C100823451 /* FeedBackViewController.xib */,
+				182642A21BB423C100823451 /* MySettingTableViewController.h */,
+				182642A31BB423C100823451 /* MySettingTableViewController.m */,
+				182642A41BB423C100823451 /* OrderViewController.h */,
+				182642A51BB423C100823451 /* OrderViewController.m */,
+				182642A61BB423C100823451 /* QRcodeShareViewController.h */,
+				182642A71BB423C100823451 /* QRcodeShareViewController.m */,
+				182642A81BB423C100823451 /* QRcodeShareViewController.xib */,
+				182642A91BB423C100823451 /* SettinglistTableViewCell.h */,
+				182642AA1BB423C100823451 /* SettinglistTableViewCell.m */,
+				182642AB1BB423C100823451 /* SettinglistTableViewCell.xib */,
+				182642AC1BB423C100823451 /* SettingLoginTableViewCell.h */,
+				182642AD1BB423C100823451 /* SettingLoginTableViewCell.m */,
+				182642AE1BB423C100823451 /* SettingLoginTableViewCell.xib */,
+			);
+			path = MeViewControllers;
+			sourceTree = "<group>";
+		};
+		182642CB1BB4246200823451 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182642CC1BB4246200823451 /* ChangePasswordViewController.h */,
+				182642CD1BB4246200823451 /* ChangePasswordViewController.m */,
+				182642CE1BB4246200823451 /* ChangePasswordViewController.xib */,
+				182642CF1BB4246200823451 /* LoginViewController.h */,
+				182642D01BB4246200823451 /* LoginViewController.m */,
+				182642D11BB4246200823451 /* LoginViewController.xib */,
+			);
+			name = LoginViewControllers;
+			path = MeViewControllers/LoginViewControllers;
+			sourceTree = "<group>";
+		};
 		20629A4B1BB3A2F40066FBF8 /* Comm */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,17 +295,11 @@
 				206499051BAFFB6E005B3EDC /* AppDelegate.m */,
 				2090E27B1BB2960100EE2B99 /* HomeViewControllers */,
 				2090E27A1BB2960100EE2B99 /* CategoryViewControllers */,
-				2090E2791BB2960100EE2B99 /* CartViewControllers */,
-				2090E27E1BB2960100EE2B99 /* MeViewControllers */,
+				182642971BB4239F00823451 /* CartViewControllers */,
+				182642981BB4239F00823451 /* MeViewControllers */,
+				182642CB1BB4246200823451 /* LoginViewControllers */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		2090E2791BB2960100EE2B99 /* CartViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CartViewControllers;
 			sourceTree = "<group>";
 		};
 		2090E27A1BB2960100EE2B99 /* CategoryViewControllers */ = {
@@ -212,13 +320,6 @@
 				2090E2881BB2D04800EE2B99 /* HomeViewController.m */,
 			);
 			path = HomeViewControllers;
-			sourceTree = "<group>";
-		};
-		2090E27E1BB2960100EE2B99 /* MeViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MeViewControllers;
 			sourceTree = "<group>";
 		};
 		2090E2811BB2CFA900EE2B99 /* Vender */ = {
@@ -350,9 +451,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				206498E91BAFFB42005B3EDC /* Main.storyboard in Resources */,
+				182642C51BB423C100823451 /* SettinglistTableViewCell.xib in Resources */,
 				206498EE1BAFFB42005B3EDC /* LaunchScreen.xib in Resources */,
+				182642D41BB4246200823451 /* ChangePasswordViewController.xib in Resources */,
+				182642B91BB423C100823451 /* FeedBackViewController.xib in Resources */,
 				2090E28F1BB2D13E00EE2B99 /* XScrollViewCell.xib in Resources */,
+				182642B51BB423C100823451 /* AdressManageViewController.xib in Resources */,
 				206498EB1BAFFB42005B3EDC /* Images.xcassets in Resources */,
+				182642D81BB4246200823451 /* LoginViewController.xib in Resources */,
+				182642C11BB423C100823451 /* QRcodeShareViewController.xib in Resources */,
+				182642C91BB423C100823451 /* SettingLoginTableViewCell.xib in Resources */,
+				182642B11BB423C100823451 /* AboutAPPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +469,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182642D91BB4246200823451 /* LoginViewController.xib in Resources */,
+				182642D51BB4246200823451 /* ChangePasswordViewController.xib in Resources */,
+				182642B21BB423C100823451 /* AboutAPPViewController.xib in Resources */,
+				182642B61BB423C100823451 /* AdressManageViewController.xib in Resources */,
+				182642CA1BB423C100823451 /* SettingLoginTableViewCell.xib in Resources */,
+				182642C21BB423C100823451 /* QRcodeShareViewController.xib in Resources */,
+				182642C61BB423C100823451 /* SettinglistTableViewCell.xib in Resources */,
+				182642BA1BB423C100823451 /* FeedBackViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,14 +535,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182642AF1BB423C100823451 /* AboutAPPViewController.m in Sources */,
 				20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */,
+				182642C31BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
 				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
+				182642C71BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
+				182642B71BB423C100823451 /* FeedBackViewController.m in Sources */,
+				182642BB1BB423C100823451 /* MySettingTableViewController.m in Sources */,
+				182642D21BB4246200823451 /* ChangePasswordViewController.m in Sources */,
+				182642BF1BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
 				2090E2861BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m in Sources */,
 				20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */,
 				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
 				206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */,
 				2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */,
+				182642D61BB4246200823451 /* LoginViewController.m in Sources */,
+				182642BD1BB423C100823451 /* OrderViewController.m in Sources */,
+				182642B31BB423C100823451 /* AdressManageViewController.m in Sources */,
 				206498E01BAFFB42005B3EDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +561,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182642BC1BB423C100823451 /* MySettingTableViewController.m in Sources */,
+				182642BE1BB423C100823451 /* OrderViewController.m in Sources */,
+				182642C41BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
+				182642D31BB4246200823451 /* ChangePasswordViewController.m in Sources */,
+				182642B41BB423C100823451 /* AdressManageViewController.m in Sources */,
+				182642B01BB423C100823451 /* AboutAPPViewController.m in Sources */,
 				206498FA1BAFFB42005B3EDC /* MarketTests.m in Sources */,
+				182642C81BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
+				182642C01BB423C100823451 /* QRcodeShareViewController.m in Sources */,
+				182642D71BB4246200823451 /* LoginViewController.m in Sources */,
+				182642B81BB423C100823451 /* FeedBackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
