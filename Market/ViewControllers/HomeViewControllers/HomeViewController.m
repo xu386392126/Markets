@@ -37,13 +37,9 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"scan"] style:UIBarButtonItemStyleDone target:self action:@selector(scanAction:)];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mesg"] style:UIBarButtonItemStyleDone target:self action:@selector(messageAction:)];
+
     
-    
-    
-    AFAppDotNetAPIClient *afDotNet = [AFAppDotNetAPIClient  sharedClient];
-    afDotNet.delegate = self;
-    
-    [afDotNet postAsynchronous:@"h_c_list" parameter:nil];
+  
     
 }
 
