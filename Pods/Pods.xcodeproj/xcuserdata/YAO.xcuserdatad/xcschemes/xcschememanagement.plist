@@ -4,20 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Market.xcscheme</key>
+		<key>Pods-Market-AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Market.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>206498D91BAFFB42005B3EDC</key>
+		<key>BE0E8066B16449399B8943E0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>206498F21BAFFB42005B3EDC</key>
+		<key>F554339E9D1E46A6B9F72513</key>
 		<dict>
 			<key>primary</key>
 			<true/>
