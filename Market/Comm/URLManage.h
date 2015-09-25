@@ -14,4 +14,6 @@
 
 - (NSString *)baseUrl;
 
+- (NSString *)h_c_list;
+
 @end

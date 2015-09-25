@@ -31,6 +31,17 @@
     // Initialization code
 }
 
+
+
+- (void)drawRect:(CGRect)rect
+{
+    
+    
+    
+    
+}
+
+
 - (void)setSelected:(BOOL)selected {
     [super setSelected:selected];
     

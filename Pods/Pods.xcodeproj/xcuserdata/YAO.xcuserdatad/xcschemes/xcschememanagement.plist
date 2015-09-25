@@ -8,25 +8,31 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>Pods-Market-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Market.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BE0E8066B16449399B8943E0</key>
+		<key>645DF581E204A3FAD4305FBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F554339E9D1E46A6B9F72513</key>
+		<key>6711EB9B35F93A9A2C6F324C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75DA8CA73F1980EC61917ACD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

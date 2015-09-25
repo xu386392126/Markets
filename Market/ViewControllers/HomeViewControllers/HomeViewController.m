@@ -9,17 +9,18 @@
 #import "HomeViewController.h"
 #import "XScrollViewCell.h"
 #import "ASOXScrollTableViewCell.h"
-#import "AFAppDotNetAPIClient.h"
+#import "HomeService.h"
 
 
-@interface HomeViewController () <ASOXScrollTableViewCellDelegate> {
+
+@interface HomeViewController () <ASOXScrollTableViewCellDelegate,HomeDelgate> {
     
      NSArray *_xScrollDataSource;
     
     ASOXScrollTableViewCell *_xScrollTableViewCell;
-    
-    
 }
+
+@property (nonatomic, strong) HomeService *homeService;
 
 @end
 
@@ -38,8 +39,9 @@
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"mesg"] style:UIBarButtonItemStyleDone target:self action:@selector(messageAction:)];
 
-    
-  
+    self.homeService = [[HomeService alloc]init];
+    self.homeService.delgate = self;
+    [self.homeService homeList];
     
 }
 
@@ -144,5 +146,28 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark homedelegate
+- (void)requestHomeList
+{
+    
+    
+}
+
+- (void)requestHomeListFinishing:(HomeListModel *)model
+{
+    
+    
+    
+}
+
+- (void)requestHomeListFailed:(NSString *)errorString
+{
+    
+    
+    
+}
+
+
 
 @end

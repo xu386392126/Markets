@@ -43,6 +43,13 @@
 		182642D71BB4246200823451 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642D01BB4246200823451 /* LoginViewController.m */; };
 		182642D81BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
 		182642D91BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
+		20430DF31BB4DE8400150629 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF01BB4DE8400150629 /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		20430DF41BB4DE8400150629 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF21BB4DE8400150629 /* JastorRuntimeHelper.m */; };
+		20430DFB1BB4E14700150629 /* HomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFA1BB4E14700150629 /* HomeService.m */; };
+		20430DFE1BB4E20A00150629 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFD1BB4E20A00150629 /* BaseService.m */; };
+		20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E011BB4E4CF00150629 /* NSDictionary+slb.m */; };
+		20430E061BB4E80B00150629 /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E051BB4E80B00150629 /* HomeListModel.m */; };
+		20430E091BB4E85400150629 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E081BB4E85400150629 /* ListModel.m */; };
 		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
 		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
 		20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A571BB4219F0066FBF8 /* CategoryViewController.m */; };
@@ -99,6 +106,22 @@
 		182642CF1BB4246200823451 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		182642D01BB4246200823451 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		182642D11BB4246200823451 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		20430DEC1BB4DDA400150629 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		20430DEE1BB4DE8400150629 /* Jastor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jastor-Prefix.pch"; sourceTree = "<group>"; };
+		20430DEF1BB4DE8400150629 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		20430DF01BB4DE8400150629 /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		20430DF11BB4DE8400150629 /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		20430DF21BB4DE8400150629 /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		20430DF91BB4E14700150629 /* HomeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeService.h; sourceTree = "<group>"; };
+		20430DFA1BB4E14700150629 /* HomeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeService.m; sourceTree = "<group>"; };
+		20430DFC1BB4E20A00150629 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		20430DFD1BB4E20A00150629 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		20430E001BB4E4CF00150629 /* NSDictionary+slb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+slb.h"; sourceTree = "<group>"; };
+		20430E011BB4E4CF00150629 /* NSDictionary+slb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+slb.m"; sourceTree = "<group>"; };
+		20430E041BB4E80B00150629 /* HomeListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListModel.h; sourceTree = "<group>"; };
+		20430E051BB4E80B00150629 /* HomeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListModel.m; sourceTree = "<group>"; };
+		20430E071BB4E85400150629 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		20430E081BB4E85400150629 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
 		20629A4C1BB3A34B0066FBF8 /* URLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManage.h; sourceTree = "<group>"; };
 		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
 		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
@@ -200,13 +223,58 @@
 			path = MeViewControllers/LoginViewControllers;
 			sourceTree = "<group>";
 		};
+		20430DE81BB4DD3100150629 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20430DFC1BB4E20A00150629 /* BaseService.h */,
+				20430DFD1BB4E20A00150629 /* BaseService.m */,
+				20430DF91BB4E14700150629 /* HomeService.h */,
+				20430DFA1BB4E14700150629 /* HomeService.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		20430DED1BB4DE8400150629 /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				20430DEE1BB4DE8400150629 /* Jastor-Prefix.pch */,
+				20430DEF1BB4DE8400150629 /* Jastor.h */,
+				20430DF01BB4DE8400150629 /* Jastor.m */,
+				20430DF11BB4DE8400150629 /* JastorRuntimeHelper.h */,
+				20430DF21BB4DE8400150629 /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		20430DFF1BB4E4A900150629 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				20430E001BB4E4CF00150629 /* NSDictionary+slb.h */,
+				20430E011BB4E4CF00150629 /* NSDictionary+slb.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		20430E031BB4E80B00150629 /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				20430E041BB4E80B00150629 /* HomeListModel.h */,
+				20430E051BB4E80B00150629 /* HomeListModel.m */,
+				20430E071BB4E85400150629 /* ListModel.h */,
+				20430E081BB4E85400150629 /* ListModel.m */,
+			);
+			path = HomeList;
+			sourceTree = "<group>";
+		};
 		20629A4B1BB3A2F40066FBF8 /* Comm */ = {
 			isa = PBXGroup;
 			children = (
+				20430DFF1BB4E4A900150629 /* Category */,
 				20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */,
 				20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */,
 				20629A4C1BB3A34B0066FBF8 /* URLManage.h */,
 				20629A4D1BB3A34B0066FBF8 /* URLManage.m */,
+				20430DEC1BB4DDA400150629 /* Header.h */,
 			);
 			path = Comm;
 			sourceTree = "<group>";
@@ -214,6 +282,7 @@
 		20629A4F1BB3C7140066FBF8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				20430E031BB4E80B00150629 /* HomeList */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +290,7 @@
 		20629A501BB3C7140066FBF8 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				20430DE81BB4DD3100150629 /* Home */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -325,6 +395,7 @@
 		2090E2811BB2CFA900EE2B99 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				20430DED1BB4DE8400150629 /* Jastor */,
 				2090E2821BB2CFA900EE2B99 /* XScroll */,
 			);
 			path = Vender;
@@ -536,12 +607,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				182642AF1BB423C100823451 /* AboutAPPViewController.m in Sources */,
+				20430DFB1BB4E14700150629 /* HomeService.m in Sources */,
 				20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */,
+				20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */,
 				182642C31BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
 				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
 				182642C71BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
 				182642B71BB423C100823451 /* FeedBackViewController.m in Sources */,
 				182642BB1BB423C100823451 /* MySettingTableViewController.m in Sources */,
+				20430E061BB4E80B00150629 /* HomeListModel.m in Sources */,
 				182642D21BB4246200823451 /* ChangePasswordViewController.m in Sources */,
 				182642BF1BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
@@ -549,11 +623,15 @@
 				20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */,
 				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
 				206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */,
+				20430E091BB4E85400150629 /* ListModel.m in Sources */,
 				2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */,
 				182642D61BB4246200823451 /* LoginViewController.m in Sources */,
+				20430DF31BB4DE8400150629 /* Jastor.m in Sources */,
 				182642BD1BB423C100823451 /* OrderViewController.m in Sources */,
+				20430DFE1BB4E20A00150629 /* BaseService.m in Sources */,
 				182642B31BB423C100823451 /* AdressManageViewController.m in Sources */,
 				206498E01BAFFB42005B3EDC /* main.m in Sources */,
+				20430DF41BB4DE8400150629 /* JastorRuntimeHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

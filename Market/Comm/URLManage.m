@@ -27,4 +27,9 @@
     return  @"http://60.190.129.49:6600/jxshop/api/";
 }
 
+- (NSString *)h_c_list
+{
+    return @"h_c_list";
+}
+
 @end
