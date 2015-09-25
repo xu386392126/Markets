@@ -32,6 +32,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarbg"] forBarMetrics:UIBarMetricsDefault];
+   // [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarbg"] forBarMetrics:UIBarMetricsDefaultPrompt];
+    
     self.tabImage1=[NSArray arrayWithObjects:@"ico_u_01",@"ico_u_02",@"ico_u_03",@"ico_u_04",@"ico_u_05", nil];
     self.tabImage2 =[NSArray arrayWithObjects:@"ico_u_06",@"ico_u_07",@"ico_u_08",@"ico_u_09", nil];
     self.cellNameArr1 =[NSArray arrayWithObjects:@"我的订单",@"地址管理",@"意见反馈",@"修改密码",@"修改手势密码", nil];
@@ -43,7 +46,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-#pragma mark  -Tableview  Delegate
+#pragma mark  - Tableview  Delegate
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger section =[indexPath section];
@@ -191,49 +195,6 @@
 }
 
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 #pragma mark - message share
 
 -(void)showSMSPicker{
@@ -257,10 +218,7 @@
             UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@""message:@"设备不支持短信功能" delegate:self cancelButtonTitle:@"确定"otherButtonTitles:nil];
             
             [alert show];
-            
-            
-            
-            
+      
         }
         
     }

@@ -8,7 +8,7 @@
 
 #import "ChangePasswordViewController.h"
 
-@interface ChangePasswordViewController ()
+@interface ChangePasswordViewController ()<UITextFieldDelegate>
 
 @end
 
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.oldPassword .delegate =self;
+    self.PasswordNew.delegate = self;
+    self.passwordNewAgain.delegate = self;
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -23,7 +27,23 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma mark - UITextfieldDelegate 
 
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    
+}
+//- (BOOL)textFieldShouldEndEditing:(UITextField *)textField
+//{
+//}
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    return YES;
+}
 /*
 #pragma mark - Navigation
 
@@ -34,4 +54,7 @@
 }
 */
 
+- (IBAction)changePswAction:(id)sender {
+    
+}
 @end

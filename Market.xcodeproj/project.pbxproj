@@ -43,14 +43,14 @@
 		182642D71BB4246200823451 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182642D01BB4246200823451 /* LoginViewController.m */; };
 		182642D81BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
 		182642D91BB4246200823451 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182642D11BB4246200823451 /* LoginViewController.xib */; };
-		20430DF31BB4DE8400150629 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF01BB4DE8400150629 /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		20430DF41BB4DE8400150629 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF21BB4DE8400150629 /* JastorRuntimeHelper.m */; };
-		20430DFB1BB4E14700150629 /* HomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFA1BB4E14700150629 /* HomeService.m */; };
-		20430DFE1BB4E20A00150629 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFD1BB4E20A00150629 /* BaseService.m */; };
-		20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E011BB4E4CF00150629 /* NSDictionary+slb.m */; };
-		20430E061BB4E80B00150629 /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E051BB4E80B00150629 /* HomeListModel.m */; };
-		20430E091BB4E85400150629 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E081BB4E85400150629 /* ListModel.m */; };
-
+		18DB50811BB53CBE00D9DD11 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50791BB53CBE00D9DD11 /* ALView+PureLayout.m */; };
+		18DB50821BB53CBE00D9DD11 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB50791BB53CBE00D9DD11 /* ALView+PureLayout.m */; };
+		18DB50831BB53CBE00D9DD11 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB507B1BB53CBE00D9DD11 /* NSArray+PureLayout.m */; };
+		18DB50841BB53CBE00D9DD11 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB507B1BB53CBE00D9DD11 /* NSArray+PureLayout.m */; };
+		18DB50851BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB507D1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m */; };
+		18DB50861BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB507D1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m */; };
+		18DB508B1BB53FC900D9DD11 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB508A1BB53FC900D9DD11 /* StarRatingControl.m */; };
+		18DB508C1BB53FC900D9DD11 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB508A1BB53FC900D9DD11 /* StarRatingControl.m */; };
 		18F797AC1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */; };
 		18F797AD1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */; };
 		18F797B11BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */; };
@@ -59,7 +59,13 @@
 		18F797B41BB4F08000D0C362 /* ShoppingListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */; };
 		18F797B71BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */; };
 		18F797B81BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */; };
-
+		20430DF31BB4DE8400150629 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF01BB4DE8400150629 /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		20430DF41BB4DE8400150629 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DF21BB4DE8400150629 /* JastorRuntimeHelper.m */; };
+		20430DFB1BB4E14700150629 /* HomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFA1BB4E14700150629 /* HomeService.m */; };
+		20430DFE1BB4E20A00150629 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430DFD1BB4E20A00150629 /* BaseService.m */; };
+		20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E011BB4E4CF00150629 /* NSDictionary+slb.m */; };
+		20430E061BB4E80B00150629 /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E051BB4E80B00150629 /* HomeListModel.m */; };
+		20430E091BB4E85400150629 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E081BB4E85400150629 /* ListModel.m */; };
 		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
 		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
 		20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A571BB4219F0066FBF8 /* CategoryViewController.m */; };
@@ -116,7 +122,25 @@
 		182642CF1BB4246200823451 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		182642D01BB4246200823451 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		182642D11BB4246200823451 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-
+		18DB50781BB53CBE00D9DD11 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		18DB50791BB53CBE00D9DD11 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		18DB507A1BB53CBE00D9DD11 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		18DB507B1BB53CBE00D9DD11 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		18DB507C1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		18DB507D1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		18DB507E1BB53CBE00D9DD11 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		18DB507F1BB53CBE00D9DD11 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		18DB50801BB53CBE00D9DD11 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		18DB50871BB53D4800D9DD11 /* Market.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Market.pch; sourceTree = "<group>"; };
+		18DB50891BB53FC900D9DD11 /* StarRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingControl.h; sourceTree = "<group>"; };
+		18DB508A1BB53FC900D9DD11 /* StarRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingControl.m; sourceTree = "<group>"; };
+		18F797AA1BB4EA8600D0C362 /* ShopListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListTableViewController.h; sourceTree = "<group>"; };
+		18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListTableViewController.m; sourceTree = "<group>"; };
+		18F797AE1BB4F08000D0C362 /* ShoppingListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListTableViewCell.h; sourceTree = "<group>"; };
+		18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTableViewCell.m; sourceTree = "<group>"; };
+		18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListTableViewCell.xib; sourceTree = "<group>"; };
+		18F797B51BB4F4F600D0C362 /* ShopListGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListGoodsModel.h; sourceTree = "<group>"; };
+		18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListGoodsModel.m; sourceTree = "<group>"; };
 		20430DEC1BB4DDA400150629 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		20430DEE1BB4DE8400150629 /* Jastor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jastor-Prefix.pch"; sourceTree = "<group>"; };
 		20430DEF1BB4DE8400150629 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
@@ -133,14 +157,6 @@
 		20430E051BB4E80B00150629 /* HomeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListModel.m; sourceTree = "<group>"; };
 		20430E071BB4E85400150629 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
 		20430E081BB4E85400150629 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
-		18F797AA1BB4EA8600D0C362 /* ShopListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListTableViewController.h; sourceTree = "<group>"; };
-		18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListTableViewController.m; sourceTree = "<group>"; };
-		18F797AE1BB4F08000D0C362 /* ShoppingListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListTableViewCell.h; sourceTree = "<group>"; };
-		18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTableViewCell.m; sourceTree = "<group>"; };
-		18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListTableViewCell.xib; sourceTree = "<group>"; };
-		18F797B51BB4F4F600D0C362 /* ShopListGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListGoodsModel.h; sourceTree = "<group>"; };
-		18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListGoodsModel.m; sourceTree = "<group>"; };
-
 		20629A4C1BB3A34B0066FBF8 /* URLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManage.h; sourceTree = "<group>"; };
 		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
 		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
@@ -245,6 +261,31 @@
 			);
 			name = LoginViewControllers;
 			path = MeViewControllers/LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		18DB50771BB53CBE00D9DD11 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				18DB50781BB53CBE00D9DD11 /* ALView+PureLayout.h */,
+				18DB50791BB53CBE00D9DD11 /* ALView+PureLayout.m */,
+				18DB507A1BB53CBE00D9DD11 /* NSArray+PureLayout.h */,
+				18DB507B1BB53CBE00D9DD11 /* NSArray+PureLayout.m */,
+				18DB507C1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.h */,
+				18DB507D1BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m */,
+				18DB507E1BB53CBE00D9DD11 /* PureLayout+Internal.h */,
+				18DB507F1BB53CBE00D9DD11 /* PureLayout.h */,
+				18DB50801BB53CBE00D9DD11 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		18DB50881BB53FC900D9DD11 /* starRating */ = {
+			isa = PBXGroup;
+			children = (
+				18DB50891BB53FC900D9DD11 /* StarRatingControl.h */,
+				18DB508A1BB53FC900D9DD11 /* StarRatingControl.m */,
+			);
+			path = starRating;
 			sourceTree = "<group>";
 		};
 		20430DE81BB4DD3100150629 /* Home */ = {
@@ -363,6 +404,7 @@
 			children = (
 				206498DE1BAFFB42005B3EDC /* Info.plist */,
 				206498DF1BAFFB42005B3EDC /* main.m */,
+				18DB50871BB53D4800D9DD11 /* Market.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -421,6 +463,8 @@
 		2090E2811BB2CFA900EE2B99 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				18DB50881BB53FC900D9DD11 /* starRating */,
+				18DB50771BB53CBE00D9DD11 /* PureLayout */,
 				20430DED1BB4DE8400150629 /* Jastor */,
 				2090E2821BB2CFA900EE2B99 /* XScroll */,
 			);
@@ -635,21 +679,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				182642AF1BB423C100823451 /* AboutAPPViewController.m in Sources */,
-
 				20430DFB1BB4E14700150629 /* HomeService.m in Sources */,
 				20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */,
+				18DB50851BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */,
-
 				18F797AC1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */,
-				
 				18F797B11BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */,
 				182642C31BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
 				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
 				182642C71BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
 				182642B71BB423C100823451 /* FeedBackViewController.m in Sources */,
 				182642BB1BB423C100823451 /* MySettingTableViewController.m in Sources */,
+				18DB508B1BB53FC900D9DD11 /* StarRatingControl.m in Sources */,
 				20430E061BB4E80B00150629 /* HomeListModel.m in Sources */,
 				182642D21BB4246200823451 /* ChangePasswordViewController.m in Sources */,
+				18DB50811BB53CBE00D9DD11 /* ALView+PureLayout.m in Sources */,
 				182642BF1BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
 				18F797B71BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */,
@@ -657,6 +701,7 @@
 				20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */,
 				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
 				206499081BAFFB6E005B3EDC /* AppDelegate.m in Sources */,
+				18DB50831BB53CBE00D9DD11 /* NSArray+PureLayout.m in Sources */,
 				20430E091BB4E85400150629 /* ListModel.m in Sources */,
 				2090E2891BB2D04800EE2B99 /* HomeViewController.m in Sources */,
 				182642D61BB4246200823451 /* LoginViewController.m in Sources */,
@@ -673,10 +718,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DB508C1BB53FC900D9DD11 /* StarRatingControl.m in Sources */,
 				182642BC1BB423C100823451 /* MySettingTableViewController.m in Sources */,
 				18F797AD1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */,
+				18DB50861BB53CBE00D9DD11 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				182642BE1BB423C100823451 /* OrderViewController.m in Sources */,
 				182642C41BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
+				18DB50841BB53CBE00D9DD11 /* NSArray+PureLayout.m in Sources */,
 				182642D31BB4246200823451 /* ChangePasswordViewController.m in Sources */,
 				182642B41BB423C100823451 /* AdressManageViewController.m in Sources */,
 				18F797B81BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */,
@@ -686,6 +734,7 @@
 				182642C01BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				182642D71BB4246200823451 /* LoginViewController.m in Sources */,
 				182642B81BB423C100823451 /* FeedBackViewController.m in Sources */,
+				18DB50821BB53CBE00D9DD11 /* ALView+PureLayout.m in Sources */,
 				18F797B21BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

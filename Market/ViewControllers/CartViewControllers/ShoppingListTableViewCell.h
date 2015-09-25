@@ -31,4 +31,7 @@
 
 @property(assign,nonatomic)id<ShopListCellDelegate>delegate;
 
+//赋值
+-(void)addTheValue:(ShopListGoodsModel *)goodsModel;
+
 @end

@@ -16,4 +16,6 @@
 @property(assign,nonatomic)BOOL selectState;//是否选中状态
 @property(assign,nonatomic)int goodsNum;//商品个数
 
+-(instancetype)initWithDict:(NSDictionary *)dict;
+
 @end

@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title =@"二维码扫描";
     // Do any additional setup after loading the view from its nib.
 }
 

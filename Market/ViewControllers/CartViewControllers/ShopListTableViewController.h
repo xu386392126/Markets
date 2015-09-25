@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ShopListTableViewController : UITableViewController
+@property (strong, nonatomic) IBOutlet UITableView *shopListTableview;
+
 
 @end
