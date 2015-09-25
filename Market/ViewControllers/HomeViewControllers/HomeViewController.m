@@ -42,7 +42,7 @@
     self.homeService = [[HomeService alloc]init];
     self.homeService.delgate = self;
     [self.homeService homeList];
-    ASDFASDF 
+    11111111
 }
 
 - (void)scanAction:(id)sender
