@@ -50,6 +50,16 @@
 		20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E011BB4E4CF00150629 /* NSDictionary+slb.m */; };
 		20430E061BB4E80B00150629 /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E051BB4E80B00150629 /* HomeListModel.m */; };
 		20430E091BB4E85400150629 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20430E081BB4E85400150629 /* ListModel.m */; };
+
+		18F797AC1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */; };
+		18F797AD1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */; };
+		18F797B11BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */; };
+		18F797B21BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */; };
+		18F797B31BB4F08000D0C362 /* ShoppingListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */; };
+		18F797B41BB4F08000D0C362 /* ShoppingListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */; };
+		18F797B71BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */; };
+		18F797B81BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */; };
+
 		20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A4D1BB3A34B0066FBF8 /* URLManage.m */; };
 		20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A521BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m */; };
 		20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20629A571BB4219F0066FBF8 /* CategoryViewController.m */; };
@@ -106,6 +116,7 @@
 		182642CF1BB4246200823451 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		182642D01BB4246200823451 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		182642D11BB4246200823451 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+
 		20430DEC1BB4DDA400150629 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		20430DEE1BB4DE8400150629 /* Jastor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jastor-Prefix.pch"; sourceTree = "<group>"; };
 		20430DEF1BB4DE8400150629 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
@@ -122,6 +133,14 @@
 		20430E051BB4E80B00150629 /* HomeListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListModel.m; sourceTree = "<group>"; };
 		20430E071BB4E85400150629 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
 		20430E081BB4E85400150629 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		18F797AA1BB4EA8600D0C362 /* ShopListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListTableViewController.h; sourceTree = "<group>"; };
+		18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListTableViewController.m; sourceTree = "<group>"; };
+		18F797AE1BB4F08000D0C362 /* ShoppingListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListTableViewCell.h; sourceTree = "<group>"; };
+		18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTableViewCell.m; sourceTree = "<group>"; };
+		18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListTableViewCell.xib; sourceTree = "<group>"; };
+		18F797B51BB4F4F600D0C362 /* ShopListGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopListGoodsModel.h; sourceTree = "<group>"; };
+		18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopListGoodsModel.m; sourceTree = "<group>"; };
+
 		20629A4C1BB3A34B0066FBF8 /* URLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManage.h; sourceTree = "<group>"; };
 		20629A4D1BB3A34B0066FBF8 /* URLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManage.m; sourceTree = "<group>"; };
 		20629A511BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
@@ -176,6 +195,11 @@
 		182642971BB4239F00823451 /* CartViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18F797AA1BB4EA8600D0C362 /* ShopListTableViewController.h */,
+				18F797AB1BB4EA8700D0C362 /* ShopListTableViewController.m */,
+				18F797AE1BB4F08000D0C362 /* ShoppingListTableViewCell.h */,
+				18F797AF1BB4F08000D0C362 /* ShoppingListTableViewCell.m */,
+				18F797B01BB4F08000D0C362 /* ShoppingListTableViewCell.xib */,
 			);
 			path = CartViewControllers;
 			sourceTree = "<group>";
@@ -283,6 +307,8 @@
 			isa = PBXGroup;
 			children = (
 				20430E031BB4E80B00150629 /* HomeList */,
+				18F797B51BB4F4F600D0C362 /* ShopListGoodsModel.h */,
+				18F797B61BB4F4F600D0C362 /* ShopListGoodsModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -527,6 +553,7 @@
 				182642D41BB4246200823451 /* ChangePasswordViewController.xib in Resources */,
 				182642B91BB423C100823451 /* FeedBackViewController.xib in Resources */,
 				2090E28F1BB2D13E00EE2B99 /* XScrollViewCell.xib in Resources */,
+				18F797B31BB4F08000D0C362 /* ShoppingListTableViewCell.xib in Resources */,
 				182642B51BB423C100823451 /* AdressManageViewController.xib in Resources */,
 				206498EB1BAFFB42005B3EDC /* Images.xcassets in Resources */,
 				182642D81BB4246200823451 /* LoginViewController.xib in Resources */,
@@ -542,6 +569,7 @@
 			files = (
 				182642D91BB4246200823451 /* LoginViewController.xib in Resources */,
 				182642D51BB4246200823451 /* ChangePasswordViewController.xib in Resources */,
+				18F797B41BB4F08000D0C362 /* ShoppingListTableViewCell.xib in Resources */,
 				182642B21BB423C100823451 /* AboutAPPViewController.xib in Resources */,
 				182642B61BB423C100823451 /* AdressManageViewController.xib in Resources */,
 				182642CA1BB423C100823451 /* SettingLoginTableViewCell.xib in Resources */,
@@ -607,9 +635,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				182642AF1BB423C100823451 /* AboutAPPViewController.m in Sources */,
+
 				20430DFB1BB4E14700150629 /* HomeService.m in Sources */,
 				20629A531BB3CDEE0066FBF8 /* AFAppDotNetAPIClient.m in Sources */,
 				20430E021BB4E4CF00150629 /* NSDictionary+slb.m in Sources */,
+
+				18F797AC1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */,
+				
+				18F797B11BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */,
 				182642C31BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
 				2090E27F1BB2960100EE2B99 /* ViewController.m in Sources */,
 				182642C71BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
@@ -619,6 +652,7 @@
 				182642D21BB4246200823451 /* ChangePasswordViewController.m in Sources */,
 				182642BF1BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				20629A4E1BB3A34B0066FBF8 /* URLManage.m in Sources */,
+				18F797B71BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */,
 				2090E2861BB2CFA900EE2B99 /* ASOXScrollTableViewCell.m in Sources */,
 				20629A581BB4219F0066FBF8 /* CategoryViewController.m in Sources */,
 				2090E28E1BB2D13E00EE2B99 /* XScrollViewCell.m in Sources */,
@@ -640,16 +674,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				182642BC1BB423C100823451 /* MySettingTableViewController.m in Sources */,
+				18F797AD1BB4EA8700D0C362 /* ShopListTableViewController.m in Sources */,
 				182642BE1BB423C100823451 /* OrderViewController.m in Sources */,
 				182642C41BB423C100823451 /* SettinglistTableViewCell.m in Sources */,
 				182642D31BB4246200823451 /* ChangePasswordViewController.m in Sources */,
 				182642B41BB423C100823451 /* AdressManageViewController.m in Sources */,
+				18F797B81BB4F4F600D0C362 /* ShopListGoodsModel.m in Sources */,
 				182642B01BB423C100823451 /* AboutAPPViewController.m in Sources */,
 				206498FA1BAFFB42005B3EDC /* MarketTests.m in Sources */,
 				182642C81BB423C100823451 /* SettingLoginTableViewCell.m in Sources */,
 				182642C01BB423C100823451 /* QRcodeShareViewController.m in Sources */,
 				182642D71BB4246200823451 /* LoginViewController.m in Sources */,
 				182642B81BB423C100823451 /* FeedBackViewController.m in Sources */,
+				18F797B21BB4F08000D0C362 /* ShoppingListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

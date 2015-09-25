@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Pods-Market-SDWebImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Pods-Market.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>645DF581E204A3FAD4305FBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6711EB9B35F93A9A2C6F324C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75DA8CA73F1980EC61917ACD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BE0E8066B16449399B8943E0</key>
 		<dict>
 			<key>primary</key>

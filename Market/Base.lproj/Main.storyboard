@@ -29,7 +29,7 @@
         <!--Root View Controller-->
         <scene sceneID="JlD-mN-oJE">
             <objects>
-                <tableViewController id="dQu-jy-VRV" sceneMemberID="viewController">
+                <tableViewController id="dQu-jy-VRV" customClass="ShopListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DZe-9R-Yjl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
